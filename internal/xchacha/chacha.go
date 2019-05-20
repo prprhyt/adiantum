@@ -3,7 +3,7 @@ package xchacha
 import (
 	"encoding/binary"
 
-	"github.com/aead/chacha20/chacha"
+	"crypto/aead/chacha20/chacha"
 )
 
 // KeySize is the size of an XChaCha key.

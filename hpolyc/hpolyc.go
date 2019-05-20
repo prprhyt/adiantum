@@ -1,4 +1,4 @@
-package hpolyc // import "lukechampine.com/adiantum/hpolyc"
+package hpolyc
 
 import (
 	"crypto/aes"
@@ -6,8 +6,8 @@ import (
 	"encoding/binary"
 
 	"golang.org/x/crypto/poly1305"
-	"lukechampine.com/adiantum/hbsh"
-	"lukechampine.com/adiantum/internal/xchacha"
+	"crypto/adiantum/hbsh"
+	"crypto/adiantum/internal/xchacha"
 )
 
 type hpolycHash struct {

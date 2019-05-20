@@ -1,4 +1,4 @@
-package adiantum // import "lukechampine.com/adiantum"
+package adiantum
 
 import (
 	"bytes"
@@ -7,9 +7,9 @@ import (
 	"encoding/binary"
 
 	"golang.org/x/crypto/poly1305"
-	"lukechampine.com/adiantum/hbsh"
-	"lukechampine.com/adiantum/internal/xchacha"
-	"lukechampine.com/adiantum/nh"
+	"crypto/adiantum/hbsh"
+	"crypto/adiantum/internal/xchacha"
+	"crypto/adiantum/nh"
 )
 
 // hashNHPoly1305 implements hbsh.Hash with NH and Poly1305.

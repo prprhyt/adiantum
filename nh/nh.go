@@ -1,4 +1,4 @@
-package nh // import "lukechampine.com/adiantum/nh"
+package nh
 
 // Sum computes the NH hash of m with the specified key and places the result in
 // out. The key must be at least 48 bytes larger than the message.
