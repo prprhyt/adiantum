@@ -6,7 +6,7 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"lukechampine.com/adiantum/hbsh"
+	"crypto/adiantum/hbsh"
 )
 
 func fromHex(s string) []byte {
